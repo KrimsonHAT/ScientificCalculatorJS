@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <header>CALCULADORA</header>
+   
+    <div class="calculadora">
+        <form action="#" name="calculadora" id="calculadora">
+                <p id="Pantalla">0</p>
+                <p id="pantallaBaja">0</p>
+                <p>
+                    <input type="button" class="btn-right" value="+X!" onclick="factorialSum()"/>
+                </p>
+                <p>
+                <input type="button" class="btn-borrado" value="⌫" onclick="back()"/>
+                <input type="button" class="btn-borrado" value="CE" onclick="borradoParcial()"/>
+                <input type="button" class="btn-borrado" value="CA" onclick="borradoTotal()"/>
+                
+                </p>
+                
+                <p>
+                <input type="button" value="7" onclick="numero('7')"/>
+                <input type="button" value="8" onclick="numero('8')"/>
+                <input type="button" value="9" onclick="numero('9')"/>
+                <input type="button" value="+" onclick="operar('+')"/>
+                <input type="button" value="%" onclick="operar('%')"/>
+                <input type="button" value="X!"onclick="factorial()"/>
+                <input type="button" value="SIN" onclick="seno()"/>
+                <input type="button" value="PRIMO" onclick="primo()"/>
+                </p>
+                <p>
+                <input type="button" value="4" onclick="numero('4')"/>
+                <input type="button" value="5" onclick="numero('5')"/>
+                <input type="button" value="6" onclick="numero('6')"/>
+                <input type="button" value="-" onclick="operar('-')"/>
+                <input type="button" value="χ²" onclick="cuadrado()"/>
+                <input type="button" value="π" onclick="pi()"/>
+                <input type="button" value="COS" onclick="cos()"/>
+                <input type="button" value="INV" onclick="inverso()"/>
+                </p>
+                <p>
+                <input type="button" value="1" onclick="numero('1')"/>
+                <input type="button" value="2" onclick="numero('2')"/>
+                <input type="button" value="3" onclick="numero('3')"/>
+                <input type="button" value="*" onclick="operar('*')"/>
+                <input type="button" value="√x" onclick="raizCuadrada()"/>
+                <input type="button" value="e" onclick="e()"/>
+                <input type="button" value="TAN" onclick="tangente()"/>
+                <input type="button" value="m+" onclick="memory()"/>
+                </p>
+
+                <p>
+                <input type="button" value="+/-" onclick="opuesto()"/>
+                <input type="button" value="0" onclick="numero('0')"/>
+                <input type="button" value="." onclick="numero('.')"/>
+                <input type="button" value="=" onclick="igual()"/>
+                <input type="button" value="/" onclick="operar('/')"/>
+                <input type="button" value="xⁿ" onclick="operar('**')"/>
+                <input type="button" value="ln" onclick="logNatural()"/>
+                <input type="button" value="PAR" onclick="par()"/>
+                </p>
+              
+        </form>
+        
+
+    </div>
+         
+           
+        
+    </div>
+
+    <script type="text/javascript" src="calculadora.js"></script>
+</body>
+</html>

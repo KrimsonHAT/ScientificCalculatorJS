@@ -1,0 +1,66 @@
+body{
+    background-image: url("./img/giphy-nav.gif") ;
+    background-repeat: repeat;
+    background-size: 100%, cover;
+    position: relative;
+    color: rgb(229, 255, 0);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.calculadora {
+        border: 3px rgb(43, 255, 0) ridge;
+        width: 500px;
+        text-align: center;
+        background-color: #83001c;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 78px;
+        
+ }
+ 
+header{
+    text-align: center;
+    color: #fffb06;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#Pantalla { 
+      width: 100%;
+      border: 2px rgb(0, 99, 102) solid;
+      text-align: right; 
+      position: static;
+      background-color: rgb(0, 82, 75);
+      font-family: "courier new"; 
+      overflow: hidden;
+}
+
+#pantallaBaja{
+    width: 100%;
+      border: 2px rgb(0, 99, 102) solid;
+      text-align: right; 
+      position: static;
+      background-color: rgb(0, 82, 75);
+      font-family: "courier new"; 
+      overflow: hidden;
+}
+
+.calculadora [type=button] {
+     width: 55px;
+      padding: 0; 
+}
+
+.calculadora input.btn-borrado { 
+    color: red;
+     width: 60px;
+}
+
+.btn-right{
+    float: right;
+}
